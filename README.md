@@ -13,7 +13,7 @@ Mỗi thư mục là **một lượt chạy thật** của skill [`doyourmagic`]
 ```bash
 npx skills add rheinmir/dym            # project-scope (.claude/skills/) — hoặc thêm -g cho global
 ```
-Rồi trong Claude Code: `/dym-setup` (bảng slug) · `/dym-setup install` · `/dym-setup ci` …
+Rồi trong Claude Code: `/dym-setup` (bảng slug) · `/dym-setup install` · `/dym-setup ci` … Cả hub lẫn sub-skill đều `disable-model-invocation` → không dòng description nào vào context tự động; chỉ nạp khi bạn gõ.
 
 **Cách 2 — kéo bundle về đọc/sửa, symlink hub:**
 ```bash
