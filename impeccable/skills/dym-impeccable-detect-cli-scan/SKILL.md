@@ -1,4 +1,10 @@
-# 02 — Quét anti-pattern bằng CLI
+---
+name: dym-impeccable-detect-cli-scan
+description: "Quét anti-pattern bằng CLI. chấm chất lượng design của code frontend một cách tất định — 61 luật, không LLM, không API key, chạy được trong pre-commit hoặc CI."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-detect-cli-scan — Quét anti-pattern bằng CLI
 
 **Vì sao dùng:** chấm chất lượng design của code frontend một cách **tất định** — 61 luật, không LLM, không API key, chạy được trong pre-commit hoặc CI.
 **Sinh ra cái gì:** danh sách finding ra **stderr** (hoặc JSON ra **stdout** với `--json`), cộng một **mã thoát** để tự động hoá rẽ nhánh.

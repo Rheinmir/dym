@@ -1,4 +1,10 @@
-# 03 — Dập false positive: ignore của detector
+---
+name: dym-impeccable-tune-detector-ignores
+description: "Dập false positive: ignore của detector. giữ detect sạch mà không phải tắt hẳn luật — font thương hiệu, thư mục legacy, một file demo cố tình phá luật."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-tune-detector-ignores — Dập false positive: ignore của detector
 
 **Vì sao dùng:** giữ `detect` sạch mà không phải tắt hẳn luật — font thương hiệu, thư mục legacy, một file demo cố tình phá luật.
 **Sinh ra cái gì:** mục `detector` trong `.impeccable/config.json` (chung, commit) hoặc `.impeccable/config.local.json` (per-dev, gitignore), hoặc comment inline đi theo file.

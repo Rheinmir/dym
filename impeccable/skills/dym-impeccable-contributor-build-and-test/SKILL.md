@@ -1,4 +1,10 @@
-# 06 — Đóng góp: build và test chính Impeccable
+---
+name: dym-impeccable-contributor-build-and-test
+description: "Đóng góp: build và test chính Impeccable. bạn clone pbakaus/impeccable để sửa luật detector, sửa skill, hoặc thêm provider — và cần vòng lặp build/test đúng ngay từ lần đầu."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-contributor-build-and-test — Đóng góp: build và test chính Impeccable
 
 **Vì sao dùng:** bạn clone `pbakaus/impeccable` để sửa luật detector, sửa skill, hoặc thêm provider — và cần vòng lặp build/test đúng ngay từ lần đầu.
 **Sinh ra cái gì:** `dist/` (bundle theo từng provider), các thư mục provider đã regenerate trong repo (**phải commit**), và kết quả test.
