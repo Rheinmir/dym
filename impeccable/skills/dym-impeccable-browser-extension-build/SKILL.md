@@ -1,4 +1,10 @@
-# 07 — Build extension trình duyệt
+---
+name: dym-impeccable-browser-extension-build
+description: "Build extension trình duyệt. chạy đúng 61 luật detector trên bất kỳ trang web nào đang mở, không cần checkout code — hữu ích để soi trang production, trang staging, hoặc sản phẩm của đối thủ."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-browser-extension-build — Build extension trình duyệt
 
 **Vì sao dùng:** chạy đúng 61 luật detector trên **bất kỳ trang web nào đang mở**, không cần checkout code — hữu ích để soi trang production, trang staging, hoặc sản phẩm của đối thủ.
 **Sinh ra cái gì:** `dist/extension.zip` (Chrome Web Store) và `dist/extension-firefox.zip` (AMO), cộng thư mục `extension/` load-unpacked được.

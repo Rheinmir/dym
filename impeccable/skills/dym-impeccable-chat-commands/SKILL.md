@@ -1,4 +1,10 @@
-# 05 — 23 lệnh `/impeccable` (chỉ gõ trong CHAT)
+---
+name: dym-impeccable-chat-commands
+description: "23 lệnh `/impeccable` (chỉ gõ trong CHAT). một bộ từ vựng design chung với agent — audit, critique, polish, harden... — thay vì mỗi lần lại mô tả lại từ đầu."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-chat-commands — 23 lệnh `/impeccable` (chỉ gõ trong CHAT)
 
 **Vì sao dùng:** một bộ từ vựng design chung với agent — `audit`, `critique`, `polish`, `harden`... — thay vì mỗi lần lại mô tả lại từ đầu.
 **Sinh ra cái gì:** thay đổi code trong dự án, cộng các artifact dưới `.impeccable/` (`PRODUCT.md`, `DESIGN.md`, `surfaces/*.md`, `critique/*.md`).

@@ -1,4 +1,10 @@
-# 01 — Cài Impeccable vào dự án của bạn
+---
+name: dym-impeccable-install-into-your-project
+description: "Cài Impeccable vào dự án của bạn. đưa skill /impeccable + hook design vào harness AI của dự án, đúng phạm vi bạn muốn (project chứ không phải máy)."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-install-into-your-project — Cài Impeccable vào dự án của bạn
 
 **Vì sao dùng:** đưa skill `/impeccable` + hook design vào harness AI của dự án, đúng phạm vi bạn muốn (project chứ không phải máy).
 **Sinh ra cái gì:** thư mục skill trong các provider dir (`.claude/skills/impeccable/`, `.cursor/skills/impeccable/`, ...), file agent `impeccable-*.md`, và tuỳ chọn hook manifest.

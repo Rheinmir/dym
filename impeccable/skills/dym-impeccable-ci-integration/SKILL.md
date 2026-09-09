@@ -1,4 +1,10 @@
-# 04 — Cắm detector vào CI của dự án bạn
+---
+name: dym-impeccable-ci-integration
+description: "Cắm detector vào CI của dự án bạn. biến 61 luật tất định thành một cổng chặn, để design slop không lọt qua review."
+disable-model-invocation: true
+---
+
+# Skill: dym-impeccable-ci-integration — Cắm detector vào CI của dự án bạn
 
 **Vì sao dùng:** biến 61 luật tất định thành một cổng chặn, để design slop không lọt qua review.
 **Sinh ra cái gì:** một bước CI có mã thoát rõ ràng, cộng file `impeccable.json` làm artifact để soi lại.
